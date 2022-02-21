@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Karla','sans-serif';
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+
+
+}
+.container{
+    background-color: #fff;
+    min-width: 700px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+.primary{
+    padding: 20px 0px 20px 40px;
+}
+.primary h1{
+    color:hsl(179, 62%, 43%);
+    font-weight:bolder;
+}
+.primary h2{
+    color: hsl(71, 73%, 54%);
+    padding-top: 10px;
+}
+.primary p{
+    color: hsl(218, 22%, 67%);
+}
+.secondary{
+    background-color: hsl(179, 62%, 43%);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sub-section:nth-child(1){
+    padding: 20px 80px 20px 40px;
+    color: #fff;
+}
+button{
+    width:240px;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border:none;
+    background-color: hsl(71, 73%, 54%);
+    color: #f7f9bc;
+    font-size: 16px;
+
+}
+.sub-section:nth-child(2){
+    background-color: #51BEBD;
+    padding: 20px 110px 40px 40px;
+    color: hsl(204, 43%, 93%);
+    display: flex;
+    flex-direction: column;
+
+
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #abebf4;
+}
+.big{
+    font-size: 40px;
+}
+.small{
+    color:hsl(218, 22%, 67%);
+    font-weight: bolder;
+
+}
